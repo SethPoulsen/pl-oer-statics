@@ -4,67 +4,40 @@
 You are walking down the street in your hometown of DefinitelyARealPlace, USA when you come across your good friend officer Stickman. Officer Stickman remembers that your are a bright TAM 210/211 student, and decides to ask you what the reaction forces are at point a of the traffic light shown. The officer tells you that you may neglect the weight of the poles, all weights act in the negative y-direction, and that you are only looking for the reactions caused by the light fixtures. Ever the prepared student, you spring into action and calculate the reactions.
 </p>
 <p>
-Given the mass and coordinates for a, b, c, d, and e.
+Assume the following masses and coordinates for a, b, c, d, and e.
 </p>
 <p>
-         
-  	$x_a = {{params.Ax}} $ m    
-  	$y_a = {{params.Ay}} $ m    
+  	$x_a = {{params.Ax}} $ m, 
+  	$y_a = {{params.Ay}} $ m, 
   	$z_a = {{params.Az}} $ m
 </p>
 <p>
-         
-  	$x_b = {{params.Bx}} $ m    
-  	$y_b = {{params.By}} $ m    
+  	$x_b = {{params.Bx}} $ m, 
+  	$y_b = {{params.By}} $ m, 
   	$z_b = {{params.Bz}} $ m
 </p>
 <p>
-         
-  	$x_c = {{params.Cx}} $ m    
-  	$y_c = {{params.Cy}} $ m    
+  	$x_c = {{params.Cx}} $ m, 
+  	$y_c = {{params.Cy}} $ m, 
   	$z_c = {{params.Cz}} $ m
 </p>
 <p>
-         
-  	$x_d = {{params.Dx}} $ m    
-  	$y_d = {{params.Dy}} $ m    
+  	$x_d = {{params.Dx}} $ m, 
+  	$y_d = {{params.Dy}} $ m, 
   	$z_d = {{params.Dz}} $ m
 </p>
 <p>
-         
-    $x_e = {{params.Ex}} $ m    
-    $y_e = {{params.Ey}} $ m    
+    $x_e = {{params.Ex}} $ m, 
+    $y_e = {{params.Ey}} $ m, 
     $z_e = {{params.Ez}} $ m
 </p>
 <p>
-         
-    $m_1 = {{params.w1}} $ kg    
-    $m_2 = {{params.w2}} $ kg    
+    $m_1 = {{params.w1}} $ kg, 
+    $m_2 = {{params.w2}} $ kg, 
     $m_3 = {{params.w3}} $ kg
 </p>
-<pl-figure "="" directory="clientFilesQuestion" file-name="Trafficlights_3DEquil6.png" width="480px"></pl-figure>
-<pre>
-Matlab input:
-x_a = {{params.Ax}};  
-y_a = {{params.Ay}};
-z_a = {{params.Az}};
-x_b = {{params.Bx}};
-y_b = {{params.By}}; 
-z_b = {{params.Bz}}; 
-x_c = {{params.Cx}}; 
-y_c = {{params.Cy}};
-z_c = {{params.Cz}};
-x_d = {{params.Dx}}; 
-y_d = {{params.Dy}};
-z_d = {{params.Dz}};
-x_e = {{params.Ex}}; 
-y_e = {{params.Ey}}; 
-z_e = {{params.Ez}};
-m1={{params.w1}};
-m2={{params.w2}};
-m3={{params.w3}};
+<pl-figure directory="clientFilesQuestion" file-name="Trafficlights_3DEquil6.png" width="480px"></pl-figure>
 
-</pre>
 <p></p>
 </pl-question-panel>
 <pl-number-input answers-name="Rx" atol="1e-5" comparison="relabs" display="block" label="${R}_{a,x} = $ " rtol="1e-2" suffix="${\rm\ N}$"></pl-number-input>

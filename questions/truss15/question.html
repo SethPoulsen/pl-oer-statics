@@ -1,12 +1,8 @@
 <pl-question-panel>
 <p> In the truss with two force loading at {{params.location}} as illustrated below, $a= {{params.a}}\rm\ ft$, 
   $b = {{params.b}} \rm\ ft$ and $P = {{params.P}}$ kip.</p>
-<!-- This adds comment in the html -->
 <pl-drawing height="300" width="500" grid-size="0">
 <pl-drawing-initial>
-<!--
-        <pl-polygon plist='[{"x": 0, "y": 260}, {"x": 140,"y": 260}, {"x": 140,"y": 340}, {"x": 640,"y": 340}, {"x": 640,"y": 380}, {"x": 0,"y": 380}]' ></pl-polygon>
--->
 <pl-fixed-pin color="gray2" label="A" offsetx="-40" offsety="-10" x1="100" y1="200"></pl-fixed-pin>
 <pl-roller color="gray2" label="G" offsetx="20" offsety="-10" x1="400" y1="200"></pl-roller>
 <pl-rod width="10" x1="100" x2="200" y1="200" y2="50"></pl-rod> <!-- AB -->

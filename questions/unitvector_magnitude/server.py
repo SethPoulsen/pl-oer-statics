@@ -44,6 +44,5 @@ def generate(data):
     data["correct_answers"]["vec_AB_ix"] = vec_AB[0]
     data["correct_answers"]["vec_AB_iy"] = vec_AB[1]
     data["correct_answers"]["vec_AB_iz"] = vec_AB[2]
-    # data['correct_answers']['vec_AB'] = pl.to_json(vec_AB.reshape(1,3))
 
     return data

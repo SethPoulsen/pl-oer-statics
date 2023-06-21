@@ -10,13 +10,13 @@ def generate(data):
 
     alpha = random.randint(20, 40)
     a = random.randint(5, 10)
-    b = 0.3 * a
-    c = 0.5 * a
-    d = b * 1.3
-    e = 0.4 * a
+    b = round(0.3 * a,2)
+    c = round(0.5 * a,2)
+    d = round(b * 1.3,2)
+    e = round(0.4 * a,2)
 
     f1 = random.randint(10, 15)
-    f2 = f1 * 0.8
+    f2 = round(f1 * 0.8,2)
 
     alpharad = alpha / 180 * math.pi
 

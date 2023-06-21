@@ -6,8 +6,6 @@ import numpy as np
 
 def generate(data):
 
-    #######Jaekwang is writing new
-
     choice = random.choice([1, 2, 3])
 
     a1 = random.randint(7, 9)
@@ -17,23 +15,6 @@ def generate(data):
     c1 = 3
     c2 = 4
     W = random.randint(200, 600)
-
-    #### Test
-    # a1 = 7
-    # a2 = 2
-    # b1 = 2
-    # b2 = 2
-    # c1 = 4
-    # c2 = 4
-    # W = 363
-
-    # convert to dimensions shown if the figure
-    # a=a1
-    # b=a2
-    # c=b1
-    # d=b2
-    # e=c1
-    # f=c2
 
     data["params"]["a1"] = a1
     data["params"]["a2"] = a2

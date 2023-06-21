@@ -13,16 +13,8 @@ positive for member in tension and negative for member in compression):
 <p> $F_3= {{params.F3}}$ lb </p>
 <p> $a = {{params.a}}$ ft </p>
 <p> $b = {{params.b}}$ ft </p>
-<pl-figure "="" directory="clientFilesQuestion" file-name="pic1.png" width="600px"></pl-figure>
+<pl-figure directory="clientFilesQuestion" file-name="pic1.png" width="600px"></pl-figure>
 <br/>
-<pre>
-Matlab input:
-F1= {{params.F1}};
-F2= {{params.F2}};
-F3= {{params.F3}};
-a = {{params.a}};
-b = {{params.b}};
-</pre>
 </pl-question-panel>
 <p>
 <pl-number-input answers-name="ans" atol="1e-5" comparison="relabs" display="block" label="${{params.name}} = $" rtol="1e-2" suffix="lb"></pl-number-input>

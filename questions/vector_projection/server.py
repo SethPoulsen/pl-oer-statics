@@ -108,6 +108,5 @@ def generate(data):
     data["correct_answers"]["proj_ix"] = proj[0]
     data["correct_answers"]["proj_iy"] = proj[1]
     data["correct_answers"]["proj_iz"] = proj[2]
-    # data['correct_answers']['proj'] = pl.to_json(proj.reshape(1,3))
 
     return data

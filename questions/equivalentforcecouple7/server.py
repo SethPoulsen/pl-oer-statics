@@ -12,8 +12,8 @@ def generate(data):
     beta = random.randint(25, 45)
 
     Fg = random.randint(20, 40)
-    Fi = Fg * 0.8
-    Fq = 1.2 * Fg
+    Fi = round(Fg * 0.8,3)
+    Fq = round(1.2 * Fg,3)
 
     a = random.randint(40, 50)
     b = 0.8 * a
