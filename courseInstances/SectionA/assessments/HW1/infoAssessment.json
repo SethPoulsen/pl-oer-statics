@@ -56,6 +56,10 @@
 		{
             "title": "Constraints & Rigid Body Equilibrium",
             "questions": [
+                {"id": "fbd_drawings/liftingMechanism", 	 "points": 1, "triesPerVariant": 3},
+                {"id": "fbd_drawings/collarRod", 	 "points": 1, "triesPerVariant": 3},
+                {"id": "fbd_drawings/pulley", 	 "points": 1, "triesPerVariant": 3},
+                {"id": "fbd_drawings/inclinedPlane", 	 "points": 1, "triesPerVariant": 3},
                 {"id": "reactions3", 	 "points": 1, "maxPoints": 3},
                 {"id": "equil3D6", "points": 1, "maxPoints": 3},
                 {"id": "TShape-DetermineReactions", "points": 1, "maxPoints": 3},   
@@ -69,6 +73,8 @@
 		{
             "title": "Trusses and Machines",
             "questions": [
+                {"id": "fbd_drawings/frame-exploded", 	 "points": 1, "triesPerVariant": 6},
+                {"id": "fbd_drawings/inclinedPlane-reaction", 	 "points": 1, "triesPerVariant": 3},
                 {"id": "truss15", "points": 1, "maxPoints": 3},
                 {"id": "truss_c6_31", "points": 1, "maxPoints": 3},
                 {"id": "truss6", "points": 1, "maxPoints": 3},
