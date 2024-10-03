@@ -8,5 +8,6 @@
     "author:jk12@illinois.edu",
     "calculate"
   ],
-  "type": "v3"
+  "type": "v3",
+  "sharedPublicly": true
 }

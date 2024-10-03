@@ -1,12 +1,13 @@
 {
-    "uuid": "F52891FE-AFFC-440B-BE91-C437B277625C",
-    "title": "Drawing Exploded FBDs",
-    "topic": "Structural Analysis",
-    "type": "v3",
-    "tags": [
-        "author:sb866@cornell.edu",
-        "license:CC-BY-NC",
-        "graph",
-        "su21"
-    ]
+  "uuid": "F52891FE-AFFC-440B-BE91-C437B277625C",
+  "title": "Drawing Exploded FBDs",
+  "topic": "Structural Analysis",
+  "type": "v3",
+  "tags": [
+    "author:sb866@cornell.edu",
+    "license:CC-BY-NC",
+    "graph",
+    "su21"
+  ],
+  "sharedPublicly": true
 }

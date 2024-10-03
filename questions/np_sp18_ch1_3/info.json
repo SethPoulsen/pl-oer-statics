@@ -8,5 +8,6 @@
     "license:CC-BY-NC",
     "author:siyuanc2@illinois.edu",
     "calculate"
-  ]
+  ],
+  "sharedPublicly": true
 }

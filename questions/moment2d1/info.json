@@ -7,5 +7,6 @@
     "license:CC-BY-NC",
     "author:xianz@illinois.edu",
     "calculate"
-  ]
+  ],
+  "sharedPublicly": true
 }
